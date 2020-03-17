@@ -224,6 +224,15 @@ const Home = props => {
                           </td>
                         </tr>
                       ))}
+                      {!keys.length && (
+                        <tr>
+                          <td colSpan={5}>
+                            <span className="text-info">
+                              No Keys Available, Create New
+                            </span>
+                          </td>
+                        </tr>
+                      )}
                     </tbody>
                   </table>
                 </CardBody>
