@@ -6,7 +6,6 @@ import Home from "../views/Home";
 import Detail from "../views/Detail";
 
 const DashboardRoutes = props => {
-
   return (
     <Switch>
       <Route exact path={props.match.path} component={Home} />
